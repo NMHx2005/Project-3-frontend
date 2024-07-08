@@ -8,6 +8,8 @@ html
         link(rel="stylesheet" href="assets/css/style.css")
         script( src="https://cdn.tailwindcss.com")
         script(src="tailwind.config.js")
+        link(href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet")
+
     body
         // Top Header 
         div(class="bg-primary py-[10px]") 
@@ -55,12 +57,12 @@ html
             div(class="container mx-[auto] sm:px-[0px] px-[16px] flex justify-between items-center flex-wrap" )
                 // left
                 div(class=" lg:w-[48%] w-[100%]") 
-                    h1(class="font-[900] xl:text-[48px] text-primary xl:mb-[30px] mb-[20px] lg:text-[30px] text-[28px] lg:mt-[0] mt-[40px]") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
-                    p(class="text-[#00000099] xl:text-[16px] font-[400] xl:mb-[50px] mb-[30px] text-[14px] ") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉm, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong các của bạn 
-                    div(class="bg-primary py-[16px] px-[64.5px] rounded-[62px] md:inline-block xl:mb-[50px] mb-[30px] text-center cursor-pointer") 
+                    h1(class="font-[900] xl:text-[48px] text-primary xl:mb-[30px] mb-[20px] lg:text-[30px] text-[28px] lg:mt-[0] mt-[40px]"  data-aos="fade-up" data-aos-duration="100") CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
+                    p(class="text-[#00000099] xl:text-[16px] font-[400] xl:mb-[50px] mb-[30px] text-[14px]" data-aos="fade-up" data-aos-delay="200") Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉm, được thiết kế để làm nổi bật cá tính của bạn và đáp ứng phong các của bạn 
+                    div(class="bg-primary py-[16px] px-[64.5px] rounded-[62px] md:inline-block xl:mb-[50px] mb-[30px] text-center cursor-pointer"  data-aos="fade-up" data-aos-delay="300") 
                         a(class="text-white font-[500] text-[16px]" href="#")
                             | Xem Ngay
-                    div(class="flex sm:justify-start justify-center flex-wrap sm:ml-[0px] ml-[40px] sm:mr-[0px]  mr-[40px]")
+                    div(class="flex sm:justify-start justify-center flex-wrap sm:ml-[0px] ml-[40px] sm:mr-[0px]  mr-[40px]"  data-aos="fade-up" data-aos-delay="400")
                         div(class="sm:pr-[32px] sm:border-r border-solid border-[#0000001A] sm:mr-[0px]  mr-[75px]")
                             div(class="font-[700] xl:text-[40px] text-[30px] text-primary ")  200+
                             div(class="font-[400] xl:text-[16px] text-[12px] text-[#00000099]") Thương Hiệu 
@@ -72,9 +74,9 @@ html
                             div(class="font-[400] xl:text-[16px] text-[12px] text-[#00000099]") Khách Hàng
                 // right
                 div(class="lg:w-[48%] w-[100%] relative overflow-hidden")
-                    img(class="mt-[50px] w-[100%] mb-[-1px] " src="assets/images/section-1-anh-1.png")
-                    img(class="absolute top-[86px] right-[0] xl:w-[104px] w-[80px] " src="assets/images/section-1-anh-2.svg")
-                    img(class="absolute w-[56px] aspect-square left-[0] top-[300px]" src="assets/images/section-1-anh-2.svg")
+                    img(class="mt-[50px] w-[100%] mb-[-1px] " src="assets/images/section-1-anh-1.png" data-aos="flip-left")
+                    img(class="absolute top-[86px] right-[0] xl:w-[104px] w-[80px] " src="assets/images/section-1-anh-2.svg" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000")
+                    img(class="absolute w-[56px] aspect-square left-[0] top-[300px]" src="assets/images/section-1-anh-2.svg" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000")
         // End Section-1
 
         // Section-2
@@ -82,21 +84,21 @@ html
             div(class="container mx-[auto] ") 
                 div(class="flex pt-[42px] pb-[12px] justify-center flex-wrap")
                     div(class="mr-[30px] pb-[30px]")
-                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-1.png")
+                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-1.png"  data-aos="zoom-in"  data-aos-delay="200")
                     div(class="mx-[30px] pb-[30px]")
-                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-2.png")
+                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-2.png"  data-aos="zoom-in"  data-aos-delay="300")
                     div(class="mx-[30px] pb-[30px]")
-                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-3.png")
+                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-3.png" data-aos="zoom-in" data-aos-delay="400")
                     div(class="mx-[30px] pb-[30px]")
-                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-4.png")
+                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-4.png" data-aos="zoom-in" data-aos-delay="500")
                     div(class="mx-[30px] pb-[30px]")
-                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-5.png")
+                        img(class="lg:h-[33px] h-[23px]" src="assets/images/Product-name-5.png" data-aos="zoom-in" data-aos-delay="600")
         // End Section-2
 
         // Section-3
         div(class="")
             div(class="container mx-[auto] lg:py-[62px] py-[40px] sm:px-[0px] px-[16px] border-b border-[#0000001A]")
-                div(class="font-[700] lg:text-[48px] text-[32px] text-primary lg:mb-[54px] mb-[32px] text-center ") THỜI TRANG MỚI
+                div(class="font-[700] lg:text-[48px] text-[32px] text-primary lg:mb-[54px] mb-[32px] text-center "  data-aos="zoom-in-down" data-aos-duration="1000") THỜI TRANG MỚI
                 -
                     var products = [
                         {
@@ -135,8 +137,8 @@ html
 
                 
                 div(class="lg:grid-cols-4 grid-cols-2 grid  lg:gap-[20px] gap-x-[20px] gap-y-[30px]") 
-                    each product in products
-                        a(class="" href="#")
+                    each product, index in products
+                        a(class="" href="#" data-aos="zoom-out" data-aos-duration="2000")
                             div(class="rounded-[20px]")
                             div(class="truncate ascept-square bg-[#F0EEED]  lg:rounded-[20px] rounded-[14px] lg:mb-[20px]  mb-[12px]")
                                 img(class="w-full h-full object-cover" src=product.image)
@@ -163,7 +165,7 @@ html
         // Section-4
         div(class="")
             div(class="container mx-[auto] lg:pt-[62px] pb-[76px] py-[40px] sm:px-[0px] px-[16px]")
-                div(class="font-[700] lg:text-[48px] text-[32px] text-primary lg:mb-[54px] mb-[32px] text-center ") GIẢM GIÁ NHIỀU
+                div(class="font-[700] lg:text-[48px] text-[32px] text-primary lg:mb-[54px] mb-[32px] text-center " data-aos="zoom-in-down" data-aos-duration="1000") GIẢM GIÁ NHIỀU
                 -
                     var products = [
                         {
@@ -203,7 +205,7 @@ html
                 
                 div(class="lg:grid-cols-4 grid-cols-2 grid  lg:gap-[20px] gap-x-[20px] gap-y-[30px]") 
                     each product in products
-                        a(class="" href="#")
+                        a(class="" href="#" data-aos="zoom-out" data-aos-duration="2000")
                             div(class="rounded-[20px]")
                             div(class="truncate ascept-square bg-[#F0EEED]  lg:rounded-[20px] rounded-[14px] lg:mb-[20px]  mb-[12px]")
                                 img(class="w-full h-full object-cover" src=product.image)
@@ -231,7 +233,7 @@ html
         div(class="lg:pb-[86px] pb-[40px]")
             div(class="container mx-auto sm:px-[0px] px-[16px]")
                 div(class="bg-[#F0F0F0] lg:rounded-[40px] rounded-[28px] lg:px-[64px] px-[24px] lg:py-[70px] py-[28px]")
-                    h2(class="font-[700] lg:text-[48px] text-[32px] text-primary text-center lg:mb-[54px] mb-[32px]") DANH MỤC NỔI BẬT
+                    h2(class="font-[700] lg:text-[48px] text-[32px] text-primary text-center lg:mb-[54px] mb-[32px]" data-aos="zoom-in-down" data-aos-duration="1000") DANH MỤC NỔI BẬT
                     div(class="grid sm:grid-cols-3 grid-cols-1 gap-[20px]")
                         -
                             listCategory = [
@@ -264,7 +266,7 @@ html
                         each item in listCategory
                             div(class=("relative rounded-[20px] truncate " + item.class))
                                 a(href=item.link)
-                                    h3(class="absolute lg:top-[26px] top-[17px] lg:left-[36px] left-[24px] font-[700] lg:text-[36px] text-[24px] text-primary") #{item.title}
+                                    h3(class="absolute lg:top-[26px] top-[17px] lg:left-[36px] left-[24px] font-[700] lg:text-[36px] text-[24px] text-primary" data-aos="fade-up" data-aos-duration="2000") #{item.title}
                                     img(src=item.image class="w-[100%] lg:h-[289px] h-[190px] object-cover")
         // End Section-5
 
@@ -392,3 +394,5 @@ html
                         a(class="shadow-inner bg-white flex items-center justify-center p-[9px] rounded-[6px] border-[0.22px] border-[#D6DCE5]" href="#")
                             img(class="" src="assets/images/G Pay.png")
         // End Footer
+        script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+        script(src="assets/js/script.js")
