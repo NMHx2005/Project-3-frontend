@@ -13,6 +13,6 @@ tailwind.config = {
         hehe: '#fff'
       }
     }
-
+    
   }
 }
